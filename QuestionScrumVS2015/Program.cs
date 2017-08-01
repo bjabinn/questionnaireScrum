@@ -16,7 +16,7 @@ namespace QuestionScrumVS2015
             string urlWebService = "https://api.surveyanyplace.com/v1/surveys/30517?isMobile=true&noCache=20170705085110&expand=true&lang=1&c=false";
             string json = new System.Net.WebClient().DownloadString(urlWebService);
             //Console.WriteLine(json);
-
+            //http://www.entityframeworktutorial.net/code-first/configure-one-to-many-relationship-in-code-first.aspx
             JObject jsonParsed = JObject.Parse(json);
             //var NumOfQuestion = jsonParsed["questionblocks"][0]["questions"].Children().ToList().Count;
 
