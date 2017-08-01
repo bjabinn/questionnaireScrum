@@ -1,0 +1,14 @@
+c:\users\jose a. beltran\documents\visual studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\QuestionScrumVS2015.exe.config
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\obj\Debug\QuestionScrumVS2015.csprojResolveAssemblyReference.cache
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\QuestionScrumVS2015.exe
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\QuestionScrumVS2015.pdb
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\EntityFramework.dll
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\MySql.Data.dll
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\EntityFramework.xml
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\obj\Debug\QuestionScrumVS2015.exe
+C:\Users\Jose A. Beltran\Documents\Visual Studio 2015\Projects\QuestionScrumVS2015\QuestionScrumVS2015\obj\Debug\QuestionScrumVS2015.pdb
