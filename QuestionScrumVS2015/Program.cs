@@ -2,41 +2,41 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Configuration;
 
 namespace QuestionScrumVS2015
 {
     class Program
     {
-        public static void Main(string[] args)
+        public static void getDataAndSaveToDB()
         {
-            Console.WriteLine("Start: " + DateTime.Now);
+            System.IO.StreamWriter file = new System.IO.StreamWriter("RunningLog.txt", true);
+            file.WriteLine("--------------> Start: " + DateTime.Now);
             int numQuestionInserted = 0;
             int numQuestionsAlreadyInDB = 0;
             int numExceptions = 0;
 
-            string urlWebService = "https://api.surveyanyplace.com/v1/surveys/30517?isMobile=true&noCache=20170705085110&expand=true&lang=1&c=false";
+            string urlWebService = ConfigurationManager.AppSettings["urlApiQuestions"]; ;
             string json = new System.Net.WebClient().DownloadString(urlWebService);
-            //Console.WriteLine(json);
-            //http://www.entityframeworktutorial.net/code-first/configure-one-to-many-relationship-in-code-first.aspx
             JObject jsonParsed = JObject.Parse(json);
 
             ScrumDbContext context = new ScrumDbContext();
 
             var questions = new List<Question>();
 
-            Console.WriteLine("Json Received: " + DateTime.Now);
+            file.WriteLine("Json Received: " + DateTime.Now);
 
             for (var i = 0; i < 20; i++)
-            {                 
+            {
                 try
                 {
                     var question = new Question();
 
                     var translation = jsonParsed["questionblocks"][0]["questions"][i]["translations"]["1"];
-                    question.Id = (int)(translation["id"]);
+                    question.IdFromExternalDB = (int)(translation["id"]);
                     question.Text = (string)(translation["text"]);
 
-                    var questionObjectIfExist = context.Questions.FirstOrDefault(x => x.Id == question.Id);
+                    var questionObjectIfExist = context.Questions.FirstOrDefault(x => x.IdFromExternalDB == question.IdFromExternalDB);
                     if (questionObjectIfExist == null)
                     {
                         var numOfAnswers = (jsonParsed["questionblocks"][0]["questions"][i]["answers"]).Count();
@@ -60,18 +60,26 @@ namespace QuestionScrumVS2015
                         numQuestionsAlreadyInDB++;
                     }
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     numExceptions++;
-                    Console.WriteLine("Exception: " + ex.Message);
-                    Console.WriteLine("Press a key to continue");
-                    Console.Read();
-                }                 
+                    file.WriteLine("Exception: " + ex.Message);
+                    Console.WriteLine("");
+                }
             } //end for 20 received questions
-            Console.WriteLine("Question Inserted: " + numQuestionInserted + 
-                             ". Question already found in DB: " + numQuestionsAlreadyInDB + 
+            file.WriteLine("Question Inserted: " + numQuestionInserted +
+                             ". Question already found in DB: " + numQuestionsAlreadyInDB +
                              ". Num of Errors: " + numExceptions);
+            file.WriteLine("");
+            file.Close();
+        } //end of getDataAndSaveToDB
 
+        public static void Main(string[] args)
+        {
+            getDataAndSaveToDB();
         } //end of Main
+
     } //end of Class
+
 } //end of namespace
 

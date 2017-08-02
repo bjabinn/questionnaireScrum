@@ -10,6 +10,7 @@ namespace QuestionScrumVS2015
             AllAnswers = new List<Answer>();
         }
         public int Id { get; set; }
+        public int IdFromExternalDB { get; set; }
         public string Text { get; set; }
 
         public virtual ICollection<Answer> AllAnswers { get; set; }
