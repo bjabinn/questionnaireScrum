@@ -11,10 +11,15 @@ namespace QuestionScrumVS2015
         public DbSet<Question> Questions { get; set; }
         public DbSet<Answer> Answers { get; set; }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlite("Data Source=scrumQuestions.db");
-        //}
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //one-to-many 
+            modelBuilder.Entity<Answer>()
+                        .HasRequired<Question>(s => s.Question)
+                        .WithMany(s => s.AllAnswers)
+                        .HasForeignKey(s => s.IdQuestion);
+
+        }
 
 
     }

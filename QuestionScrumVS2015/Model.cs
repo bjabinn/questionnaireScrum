@@ -3,8 +3,12 @@
 namespace QuestionScrumVS2015
 {
     [System.ComponentModel.DataAnnotations.Schema.Table("question")]
-    public partial class Question
+    public class Question
     {
+        public Question()
+        {
+            AllAnswers = new List<Answer>();
+        }
         public int Id { get; set; }
         public string Text { get; set; }
 
@@ -12,14 +16,14 @@ namespace QuestionScrumVS2015
     }
 
     [System.ComponentModel.DataAnnotations.Schema.Table("answer")]
-    public partial class Answer
+    public class Answer
     {
         public int Id { get; set; }
         public string Text { get; set; }
         public bool IsCorrect { get; set; }
 
         public int IdQuestion { get; set; }
-        public virtual Question Questions { get; set; }
+        public virtual Question Question { get; set; }
     }
 }
     
