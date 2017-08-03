@@ -58,3 +58,151 @@ Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
 Json Received: 03/08/2017 1:41:58
 Question Inserted: 2. Question already found in DB: 18. Num of Errors: 0
 
+--------------> Start: 03/08/2017 1:43:23
+Json Received: 03/08/2017 1:43:50
+Question Inserted: 2. Question already found in DB: 18. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:43:55
+Json Received: 03/08/2017 1:44:22
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:44:28
+Json Received: 03/08/2017 1:44:54
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:44:59
+Json Received: 03/08/2017 1:45:38
+Question Inserted: 2. Question already found in DB: 18. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:45:43
+Json Received: 03/08/2017 1:46:15
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:46:20
+Json Received: 03/08/2017 1:46:46
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:46:51
+Json Received: 03/08/2017 1:47:18
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:47:23
+Json Received: 03/08/2017 1:47:49
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:48:06
+Json Received: 03/08/2017 1:48:31
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:48:35
+Json Received: 03/08/2017 1:49:01
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:49:05
+Json Received: 03/08/2017 1:49:34
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:49:38
+Json Received: 03/08/2017 1:50:05
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:50:13
+Json Received: 03/08/2017 1:50:39
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:51:09
+Json Received: 03/08/2017 1:51:34
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:52:27
+Json Received: 03/08/2017 1:52:57
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:53:13
+Json Received: 03/08/2017 1:53:39
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:54:14
+Json Received: 03/08/2017 1:54:41
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:55:08
+Json Received: 03/08/2017 1:55:35
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:56:21
+Json Received: 03/08/2017 1:56:48
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:56:52
+Json Received: 03/08/2017 1:57:18
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:57:31
+Json Received: 03/08/2017 1:57:57
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 1:58:00
+Json Received: 03/08/2017 1:58:26
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:00:39
+Json Received: 03/08/2017 2:01:06
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:02:42
+Json Received: 03/08/2017 2:03:09
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:03:20
+Json Received: 03/08/2017 2:03:46
+Question Inserted: 1. Question already found in DB: 19. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:03:50
+Json Received: 03/08/2017 2:04:16
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:04:33
+Json Received: 03/08/2017 2:04:59
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:05:13
+Json Received: 03/08/2017 2:05:41
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:06:16
+Json Received: 03/08/2017 2:06:43
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:06:52
+Json Received: 03/08/2017 2:07:19
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:08:11
+Json Received: 03/08/2017 2:08:38
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:08:42
+Json Received: 03/08/2017 2:09:09
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:09:26
+Json Received: 03/08/2017 2:09:51
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:10:18
+Json Received: 03/08/2017 2:10:44
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:10:50
+Json Received: 03/08/2017 2:11:17
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:11:31
+Json Received: 03/08/2017 2:11:56
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
+--------------> Start: 03/08/2017 2:12:14
+Json Received: 03/08/2017 2:12:39
+Question Inserted: 0. Question already found in DB: 20. Num of Errors: 0
+
